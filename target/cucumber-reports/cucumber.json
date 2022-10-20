@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "User can login with valid username and password",
+        "description": "",
+        "id": "user-can-login-to-ecommerce-site;user-can-login-with-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9872290600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User visited to the ecommerce site",
+            "match": {
+              "location": "StepDefinitions.user_visited_to_the_ecommerce_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19722896800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User inputs the valid \"salman@test.com\" and \"P@ssword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "salman@test.com",
+                  "offset": 23
+                },
+                {
+                  "val": "P@ssword123",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitions.user_inputs_the_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23757475300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can login successfully",
+            "match": {
+              "location": "StepDefinitions.user_can_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User can login with valid username and password",
+        "description": "",
+        "id": "user-can-login-to-ecommerce-site;user-can-login-with-valid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17255823400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User visited to the ecommerce site",
+            "match": {
+              "location": "StepDefinitions.user_visited_to_the_ecommerce_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43824388500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User inputs the valid \"testuser412@grr.la\" and \"2t8zmqzL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser412@grr.la",
+                  "offset": 23
+                },
+                {
+                  "val": "2t8zmqzL",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinitions.user_inputs_the_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21575337800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can login successfully",
+            "match": {
+              "location": "StepDefinitions.user_can_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can login to ecommerce site",
+    "description": "",
+    "id": "user-can-login-to-ecommerce-site",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": []
+  }
+]
